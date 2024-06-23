@@ -1,11 +1,11 @@
 import { Icons } from "@/components/icons";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
+  name: "Rohit Gupta",
+  initials: "RG",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Jaipur, India",
+  locationLink: "https://www.google.com/maps/place/jaipur",
   description:
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
@@ -49,110 +49,35 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
+      company: "KR mRoads",
       href: "https://atomic.finance",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
+      location: "Hyderabad (Remote)",
+      title: "Software Engineer",
       logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "April 2022",
+      end: "Present",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
-    {
-      company: "Shopify",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
+
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
+      school: "Maharana Pratap University (MPUAT)",
       href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      degree: "Bachelor's Degree of Technology (B.Tech.)",
       logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      start: "2018",
+      end: "2022",
     },
     {
-      school: "Wilfrid Laurier University",
+      school: "Sharda Vidhya Mandir, Jaipur",
       href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
+      degree: "High School (Science)",
       logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      start: "2013",
+      end: "2017",
     },
   ],
   projects: [
@@ -324,7 +249,7 @@ export const DATA = {
       links: [
         {
           title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/cryptotrends/cryptotrends",
         },
       ],
@@ -342,22 +267,22 @@ export const DATA = {
       links: [
         {
           title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globe className="w-4 h-4" />,
           href: "https://devpost.com/software/my6footprint",
         },
         {
           title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/Wallet6/my6footprint-machine-learning",
         },
         {
           title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/Wallet6/CarbonWallet",
         },
         {
           title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/Wallet6/wallet6-server",
         },
       ],
@@ -373,7 +298,7 @@ export const DATA = {
       links: [
         {
           title: "Organization",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/ethdocnet",
         },
       ],
@@ -390,12 +315,12 @@ export const DATA = {
       links: [
         {
           title: "Streamer Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/justinmichaud/htn2017",
         },
         {
           title: "Client Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/dillionverma/RTSPClient",
         },
       ],
@@ -412,12 +337,12 @@ export const DATA = {
       links: [
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/ShareShip/ShareShip",
         },
         {
           title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globe className="w-4 h-4" />,
           href: "https://share-ship.herokuapp.com/",
         },
       ],
@@ -433,7 +358,7 @@ export const DATA = {
       links: [
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/nsagirlfriend/nsagirlfriend",
         },
       ],
@@ -450,12 +375,12 @@ export const DATA = {
       links: [
         {
           title: "Article",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globe className="w-4 h-4" />,
           href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
         },
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/TinySamosas/",
         },
       ],
@@ -482,7 +407,7 @@ export const DATA = {
       links: [
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/dillionverma/genecis",
         },
       ],
@@ -498,22 +423,22 @@ export const DATA = {
       links: [
         {
           title: "Medium Article",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globe className="w-4 h-4" />,
           href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
         },
         {
           title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globe className="w-4 h-4" />,
           href: "https://devpost.com/software/pocketdoc-react-native",
         },
         {
           title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
+          icon: <Icons.youtube className="w-4 h-4" />,
           href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
         },
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/dillionverma/pocketdoc-react-native",
         },
       ],
@@ -538,17 +463,17 @@ export const DATA = {
       links: [
         {
           title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globe className="w-4 h-4" />,
           href: "https://devpost.com/software/pocketdoc-react-native",
         },
         {
           title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
+          icon: <Icons.youtube className="w-4 h-4" />,
           href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
         },
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/dillionverma/pocketdoc-react-native",
         },
       ],
@@ -564,7 +489,7 @@ export const DATA = {
       links: [
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/dillionverma/earthwatch",
         },
       ],
@@ -581,7 +506,7 @@ export const DATA = {
       links: [
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/dillionverma/threejs-planes",
         },
       ],
@@ -599,12 +524,12 @@ export const DATA = {
       links: [
         {
           title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/mattBlackDesign/recipic-ionic",
         },
         {
           title: "Source (Server)",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/mattBlackDesign/recipic-rails",
         },
       ],
@@ -621,12 +546,12 @@ export const DATA = {
       links: [
         {
           title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/dillionverma/human-huntr-react-native",
         },
         {
           title: "Source (API)",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/mattBlackDesign/human-huntr-rails",
         },
       ],
@@ -642,7 +567,7 @@ export const DATA = {
       links: [
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/justinmichaud/TerribleHacks2016-Windows11",
         },
       ],
@@ -658,7 +583,7 @@ export const DATA = {
       links: [
         {
           title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
+          icon: <Icons.github className="w-4 h-4" />,
           href: "https://github.com/UWPortalSDK/crowmark",
         },
       ],
